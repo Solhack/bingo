@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:theme="@style/ThemeOverlay.BINGO.FullscreenContainer"
+    tools:context=".FullscreenActivity6">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/install_bingo_game_in_all_the_player_devices_n_n_nfirst_each_player_has_to_create_their_own_bingo_card_n_nthen_a_number_is_called_by_the_first_player_which_is_striked_off_in_all_the_player_cards_n_nthe_procedure_is_repeated_for_all_the_players_in_order_n_neach_time_a_row_a_column_or_a_diagonal_of_the_card_is_striked_off_the_player_gets_one_point_n_nthe_first_player_to_get_5_points_wins_bingo_n"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="normal|italic" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="@style/Widget.Theme.BINGO.ButtonBar.Fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" />
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:theme="@style/ThemeOverlay.BINGO.FullscreenContainer"
+    tools:context=".FullscreenActivity3">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        style="@style/Widget.Theme.BINGO.ButtonBar.Fullscreen"
+        android:layout_width="121dp"
+        android:layout_height="8dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.766">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:id="@+id/b1"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b2"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b3"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b4"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b5"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/b6"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b7"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b8"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b9"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b10"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/b11"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b12"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b13"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b14"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b15"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/b16"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b17"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b18"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b19"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b20"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/b21"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b22"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b23"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b24"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b25"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:contentDescription="@string/todo6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.766"
+            app:srcCompat="@drawable/hiclipart_com" />
+
+        <TextView
+            android:id="@+id/bingo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="120dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:text="@string/select_a_number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bingoImg"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/bingoImg"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="bottom|center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintBottom_toTopOf="@+id/imageView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/playername"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/playername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/name1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/quitbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:textColor="#A55B44"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:layout_constraintVertical_bias="0.218" />
+
+        <Button
+            android:id="@+id/playagain"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#81E112"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:layout_constraintVertical_bias="0.218" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="49dp"
+            android:layout_height="47dp"
+            android:contentDescription="@string/todo4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.026"
+            app:srcCompat="@drawable/gamer_512" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/textView4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="430dp"
+            android:layout_height="788dp"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</FrameLayout>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    android:theme="@style/ThemeOverlay.BINGO.FullscreenContainer"
+    tools:context=".FullscreenActivity3">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="49dp"
+            android:layout_height="47dp"
+            android:contentDescription="@string/todo5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.039"
+            app:srcCompat="@drawable/gamer_512" />
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="353dp"
+            android:layout_height="362dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/next"
+            app:layout_constraintVertical_bias="0.446">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:id="@+id/b1"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b2"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b3"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b4"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b5"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/b6"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b7"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b8"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b9"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b10"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/b11"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b12"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b13"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b14"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b15"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/b16"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b17"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b18"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b19"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b20"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/b21"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b22"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b23"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b24"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/b25"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@android:drawable/ic_input_add"
+                    android:foregroundGravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/bingo"
+            android:layout_width="241dp"
+            android:layout_height="94dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:text="@string/let_s_arrange_your_bingo_card"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/playername"
+            app:layout_constraintVertical_bias="0.041" />
+
+        <TextView
+            android:id="@+id/playername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/name1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="#F44336"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="415dp"
+            android:layout_height="56dp"
+            android:fitsSystemWindows="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <LinearLayout
+                android:id="@+id/fullscreen_content_controls"
+                style="@style/Widget.Theme.BINGO.ButtonBar.Fullscreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/next"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/retry"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#4CAF50"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bingo"
+            app:layout_constraintVertical_bias="0.044" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</FrameLayout>

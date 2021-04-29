@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amal.bingo">
+
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bingoicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bingoicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BINGO"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false">
+
+        <activity
+            android:name="com.amal.bingo.FullscreenActivity8"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen8"
+            android:theme="@style/Theme.BINGO.Fullscreen" />
+        <activity
+            android:name="com.amal.bingo.FullscreenActivity7"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen7"
+            android:theme="@style/Theme.BINGO.Fullscreen" />
+        <activity
+            android:name="com.amal.bingo.FullscreenActivity6"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen6"
+            android:theme="@style/Theme.BINGO.Fullscreen" />
+        <activity
+            android:name="com.amal.bingo.FullscreenActivity5"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen5"
+            android:theme="@style/Theme.BINGO.Fullscreen" />
+        <activity
+            android:name="com.amal.bingo.FullscreenActivity4"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen4"
+            android:theme="@style/Theme.BINGO.Fullscreen" />
+        <activity
+            android:name="com.amal.bingo.FullscreenActivity3"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen3"
+            android:theme="@style/Theme.BINGO.Fullscreen" />
+        <activity
+            android:name="com.amal.bingo.FullscreenActivity2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen2"
+            android:theme="@style/Theme.BINGO.Fullscreen" />
+        <activity
+            android:name="com.amal.bingo.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.BINGO.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
