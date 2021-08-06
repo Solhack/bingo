@@ -1,4 +1,4 @@
-<img src="app/src/main/res/mipmap-hdpi/ic_launcher.png" width="200">
+<img src="app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" width="200">
 
 # BINGO
 
