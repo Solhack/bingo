@@ -27,7 +27,6 @@ The first player to reach 5 points win! Bingo!
 <img src="screenshots/7.jpg" width="200"> <img src="screenshots/8.jpg" width="200"> 
 
 ## Download
-Download here 👇
-https://www.amazon.com/gp/product/B093THT2VY
+Download here 👉 https://www.amazon.com/gp/product/B093THT2VY
 
 ### Enjoy 😉✨
