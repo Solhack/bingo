@@ -5,7 +5,7 @@
 </div>
 
 ## Description
-_Bingo_ is a local-only multiplayer game which needs at least two devices to play.
+BINGO is a local-only multiplayer game which needs at least two devices to play.
 The devices are connected using Wi-Fi P2P Direct automatically upon selection of devices.
 
 ## Rules
