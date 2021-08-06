@@ -1,6 +1,8 @@
-<img src="app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" width="200">
-
 # BINGO
+
+<div align="center">
+  <img src="app\src\main\bingoicon-playstore.png" width=200>
+</div>
 
 ## Description
 _Bingo_ is a local-only multiplayer game which needs at least two devices to play.
@@ -19,6 +21,10 @@ The first player to reach 5 points win! Bingo!
 - Music
 
 ## Screenshots
+<img src="screenshots/1.jpg" width="200"> <img src="screenshots/2.jpg" width="200"> 
+<img src="screenshots/3.jpg" width="200"> <img src="screenshots/4.jpg" width="200"> 
+<img src="screenshots/5.jpg" width="200"> <img src="screenshots/6.jpg" width="200"> 
+<img src="screenshots/7.jpg" width="200"> <img src="screenshots/8.jpg" width="200"> 
 
 ## Download
 Download here 👇
