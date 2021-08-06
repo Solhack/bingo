@@ -1,4 +1,4 @@
-# BINGO
+# BINGO 🎰
 
 <div align="center">
   <img src="app\src\main\bingoicon-playstore.png" width=200>
