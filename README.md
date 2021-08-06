@@ -29,6 +29,8 @@ The first player to reach 5 points win! Bingo!
 ## Download
 Play BINGO for a fun card game experience with friends and family!
 
-Download here 👉 https://www.amazon.com/gp/product/B093THT2VY
+Download here 👇
+
+https://www.amazon.com/gp/product/B093THT2VY
 
 ### Enjoy 😉✨
